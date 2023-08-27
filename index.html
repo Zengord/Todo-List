@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<title>Todo List</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<section class="todo">
+				<div class="todo__container">
+					<h1 class="todo__title">Todo List</h1>
+					<div class="todo__actions">
+						<input type="text" placeholder="Введите задачу" class="todo__input">
+						<button type="button" class="todo__button-add button">Добавить</button>
+					</div>
+
+					<div class="todo__body">
+						<ul class="todo__list"></ul>
+					</div>
+					<div class="todo__buttons">
+						<button type="button" class="todo__button-higlight-even button">Выделить четные</button>
+						<button type="button" class="todo__button-higlight-odd button">Выделить нечетные</button>
+						<button type="button" class="todo__button-delete-first button">Удалить первый</button>
+						<button type="button" class="todo__button-delete-last button">Удалить последний</button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
